@@ -1,39 +1,26 @@
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>C&K Korea</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-  </head>
 
 
 
 
 
   <body>
+    
+    <header class="portfoliohead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Real Estate Development Business</div>
+          <div class="intro-heading text-uppercase">부동산 개발 사업</div>
+        </div>
+      </div>
+    </header>
+    
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Work Projmect</h3>
           </div>
         </div>
         <div class="row">
@@ -47,8 +34,8 @@
               <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>김해신도시</h4>
+              <p class="text-muted">첨단산업 물류 정보 중심 복합도시</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -61,8 +48,8 @@
               <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+              <h4>사천 밤섬마을 주택단지</h4>
+              <p class="text-muted">사천 바다케이블카, 국가항공산업단지</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -75,8 +62,8 @@
               <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4>김천 혁신도시</h4>
+              <p class="text-muted">김천 KTX, 국도 대체 우회 도로</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -89,8 +76,8 @@
               <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
+              <h4>창원 북면 내곡 지구</h4>
+              <p class="text-muted">부전~마산간 복선전철, 부산 외곽 순환 도로</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -125,21 +112,213 @@
       </div>
     </section>
     
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Portfolio Modals -->
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">김해 신도시</h2>
+                  <p class="item-intro text-muted">2016 Work project</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <p>남해 고속도로 서김해IC 인접, 행정기능 중심지역</p>
+                  <p>국제 의료 관광단지, 첨단산업 물류 정보 중심 복합도시</p>
+                  <ul class="list-inline">
+                    <!--<li>Date: January 2017</li>-->
+                    <li>소재지 : 경남 김해시 주촌·선천 개발지구 일대</li>
+                    
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">사천 밤섬마을 주택단지</h2>
+                  <p class="item-intro text-muted">2017 Work project</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                  <p>사천 바다케이블카, 국가항공산업단지(항공산업 클러스트)</p>
+                  <p>송포 미래 창조 산업 단지, 종포 산업 단지</p>
+                  <ul class="list-inline">
+                    <li>소재지 : 경남 사천시 밤섬마을 주택단지 일대</li>
+                    <!--<li>Client: Explore</li>-->
+                    <!--<li>Category: Graphic Design</li>-->
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
-    
-    
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">김천 혁신도시</h2>
+                  <p class="item-intro text-muted">2017 Work project</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                  <p>김천 KTX, 국도 대체 우회 도로</p>
+                  <p>남부 내륙 철도, 12개 공공기관 이전</p>
+                  <ul class="list-inline">
+                    <li>소재지 : 경북 김천시 문당동, 덕곡동, 대광동 일대 </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">창원 북면 내곡 지구</h2>
+                  <p class="item-intro text-muted">2017 Work project</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>부전~마산간 복선전철, 부산 외곽 순환 도로</p>
+                  <p>북면 신도시 유니시티</p>
+                  <ul class="list-inline">
+                    <li>소재지 : 북면 신도시 유니시티</li>
+                    
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Southwest</li>
+                    <li>Category: Website Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Window</li>
+                    <li>Category: Photography</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     
   </body>

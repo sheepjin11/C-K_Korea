@@ -176,7 +176,9 @@
 
   .service-heading {
     margin: 15px 0;
-    text-transform: none; }
+    text-transform: none; 
+    text-align : center;
+  }
   
   #portfolio .portfolio-item {
     right: 0;
@@ -511,7 +513,7 @@ ul.social-buttons li a {
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #008bcc; }
 
-
+  /* about view */
   .abouthead {
     
     height : 300px;
@@ -524,16 +526,17 @@ ul.social-buttons li a {
   
   }
   
+  
   header.abouthead .intro-text {
       padding-top: 150px;
       padding-bottom: 100px; }
-    header.abouthead .intro-text .intro-lead-in {
+  header.abouthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    header.abouthead .intro-text .intro-heading {
+  header.abouthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
@@ -563,3 +566,38 @@ ul.social-buttons li a {
   .about_margin {
     margin : 10% 0;
   }
+  
+  .text-muted{
+    text-align: center;
+  }
+  
+  
+  /* portfolio view */
+  .portfoliohead {
+    
+    height : 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../img/portfolio/porthead.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+  
+  }
+  
+  header.portfoliohead .intro-text {
+      padding-top: 150px;
+      padding-bottom: 100px; }
+  header.portfoliohead .intro-text .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  header.portfoliohead .intro-text .intro-heading {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+   
